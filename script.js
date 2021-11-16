@@ -31,7 +31,7 @@ const handleStart = () => {
       seconds = 0;
       stopwatch.textContent = `${minutes}:${seconds}`;
     }
-  }, 100);
+  }, 1000);
 };
 
 const handlePause = () => {
